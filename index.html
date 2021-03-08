@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Newsletter - Kokua IT</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body>
+
+	<a class="btn" onclick="popupToggle();">Inscreve-se</a>
+
+	<div id="popup">
+
+		<div class="conteudo">
+
+			<img src="newsletter.png">
+
+			<h2>Newsletter Kokua IT</h2>
+
+			<p>
+				Se inscreva e fique por dentro das 
+ 				novidades no mundo da Tecnologia!
+			</p>
+
+			<div class="inputBox">
+				<input type="text" name="" placeholder="Seu Nome">				
+			</div>
+
+			<div class="inputBox">
+				<input type="email" name="" placeholder="Seu Email">				
+			</div>
+
+			<div class="inputBox">
+				<input type="submit" value="Inscreve-se" class="btn">				
+			</div>
+			
+		</div>
+
+		<a class="close" onclick="popupToggle();"><img src="fechar.png"></a>
+		
+	</div>
+
+	<script type="text/javascript">
+
+		function popupToggle(){
+			const popup = document.getElementById('popup');
+			popup.classList.toggle('active')
+		}
+		
+	</script>
+
+</body>
+</html>
