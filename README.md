@@ -1,3 +1,3 @@
 # PopUp
 
-![alt text](https://i.ibb.co/QDh5nzQ/newletter-kokua.png)
+![alt text](https://i.ibb.co/SfHL0Wy/newletter-kokua.png)
