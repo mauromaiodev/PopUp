@@ -54,7 +54,6 @@ body
 	
 }
 
-
 #popup .conteudo
 {
 	position: relative;
@@ -86,7 +85,6 @@ body
 	color: #333;
 }
 
-
 #popup .conteudo .inputBox
 {
 	position: relative;
@@ -97,7 +95,6 @@ body
 	align-items:center;
 
 }
-
 
 #popup .conteudo .inputBox  input
 {
